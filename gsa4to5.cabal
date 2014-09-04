@@ -1,0 +1,35 @@
+name:                gsa4to5
+version:             0
+build-type:          Simple
+cabal-version:       >= 1.10
+
+library
+  exposed-modules:   GSA.FourToFive.Sprites,
+                     GSA.FourToFive.Sprites.Main,
+                     GSA.FourToFive.Sprites.Options
+  hs-source-dirs:    lib
+  build-depends:     base,
+                     containers,
+                     directory >= 1.2.1.0
+  default-language:  Haskell2010
+  ghc-options:       -Wall
+
+executable gsa4to5
+  main-is:           Main.hs
+  hs-source-dirs:    app
+  build-depends:     base,
+                     gsa4to5,
+                     directory >= 1.2.1.0
+
+test-suite Main
+  type:              exitcode-stdio-1.0
+  x-uses-tf:         true
+  hs-source-dirs:    test
+  main-is:           Main.hs
+  default-language:  Haskell2010
+  ghc-options:       -Wall
+  build-depends:     base,
+                     gsa4to5,
+                     HUnit,
+                     test-framework,
+                     test-framework-hunit
