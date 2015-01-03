@@ -1,0 +1,32 @@
+@Animated,animated
+ #Styles
+ @Wizard of Oz,wizard_of_oz
+  #Wizard of Oz
+  ^FF1-CowardlyLionSide.gif,Cowardly Lion Walking (left),78,04.05.11
+  ^FF1-DorothySide.gif,Dorothy Walking (left),78,04.05.11
+  ^FF1-ScarecrowSide.gif,Scarecrow Walking (left),78,04.05.11
+  ^FF1-TinManSide.gif,Tin Man Walking (left),78,04.05.11
+  ^FF1-CowardlyLionWalkingDown.gif,Cowardly Lion Walking (down),78,04.05.11
+  ^FF1-DorothyWalkingDown.gif,Dorothy Walking (down),78,04.05.11
+  ^FF1-ScarecrowWalkingDown.gif,Scarecrow Walking (down),78,04.05.11
+  ^FF1-TinManWalkingDown.gif,Tin Man Walking (down),78,04.05.11
+ @Final Fantasy 3 Style,final_fantasy_3_style
+  #Wizard of Oz
+  ^FF3US-CowardlyLionWalkingDown.gif,Cowardly Lion Walking (down),78,04.05.11
+ @Megaman Style,megaman_style
+  #OmegaJester in Megaman Style
+  ^MegaOJ.gif,OmegaJester Running (right),78,04.05.11
+ @Super Mario World Style,super_mario_world_style
+  #OmegaJester in Super Mario World Style
+  ^MarioOJ.gif,OmegaJester Running (right),78,04.05.11
+ @Zelda Style,zelda_style
+  #OmegaJester in Zelda: A Link to the Past Style
+  ^ZeldaOJ.gif,OmegaJester Running (down),78,04.05.11
+@Non-animated,non-animated
+ #Various Static Sprites
+ @Misc. Styles,misc_styles
+  #Misc. Styles
+  >78,04.05.11
+  *FF1OJ.gif
+  *FF3OJ.gif
+  *KirbyOJ.gif
