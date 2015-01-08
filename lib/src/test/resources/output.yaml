@@ -1,0 +1,187 @@
+- type: system
+  name: custom
+  children:
+    - type: game
+      name: nemo
+      display: Nemo
+      children:
+        - type: page
+          name: animated
+          display: Animated
+          children:
+            - type: section
+              display: Rogue (Chrono Trigger Style)
+              children:
+                - type: animated sprite
+                  name: CT_Rogue_battlestance_right.gif
+                  display: Rogue's Battle Stance (Right)
+                  submitter id: 1
+                  date: 01.09.06
+                  path: custom/nemo/sprites/animated/CT_Rogue_battlestance_right.gif
+    - type: game
+      name: omegajester
+      display: OmegaJester
+      children:
+        - type: page
+          name: animated
+          display: Animated
+          children:
+            - type: section
+              display: Styles
+              children:
+                - type: page
+                  name: wizard_of_oz
+                  display: Wizard of Oz
+                  children:
+                    - type: section
+                      display: Wizard of Oz
+                      children:
+                        - type: animated sprite
+                          name: FF1-CowardlyLionSide.gif
+                          display: Cowardly Lion Walking (left)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-CowardlyLionSide.gif
+                        - type: animated sprite
+                          name: FF1-DorothySide.gif
+                          display: Dorothy Walking (left)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-DorothySide.gif
+                        - type: animated sprite
+                          name: FF1-ScarecrowSide.gif
+                          display: Scarecrow Walking (left)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-ScarecrowSide.gif
+                        - type: animated sprite
+                          name: FF1-TinManSide.gif
+                          display: Tin Man Walking (left)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-TinManSide.gif
+                        - type: animated sprite
+                          name: FF1-CowardlyLionWalkingDown.gif
+                          display: Cowardly Lion Walking (down)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-CowardlyLionWalkingDown.gif
+                        - type: animated sprite
+                          name: FF1-DorothyWalkingDown.gif
+                          display: Dorothy Walking (down)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-DorothyWalkingDown.gif
+                        - type: animated sprite
+                          name: FF1-ScarecrowWalkingDown.gif
+                          display: Scarecrow Walking (down)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-ScarecrowWalkingDown.gif
+                        - type: animated sprite
+                          name: FF1-TinManWalkingDown.gif
+                          display: Tin Man Walking (down)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/wizard_of_oz/FF1-TinManWalkingDown.gif
+                - type: page
+                  name: final_fantasy_3_style
+                  display: Final Fantasy 3 Style
+                  children:
+                    - type: section
+                      display: Wizard of Oz
+                      children:
+                        - type: animated sprite
+                          name: FF3US-CowardlyLionWalkingDown.gif
+                          display: Cowardly Lion Walking (down)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/final_fantasy_3_style/FF3US-CowardlyLionWalkingDown.gif
+                - type: page
+                  name: megaman_style
+                  display: Megaman Style
+                  children:
+                    - type: section
+                      display: OmegaJester in Megaman Style
+                      children:
+                        - type: animated sprite
+                          name: MegaOJ.gif
+                          display: OmegaJester Running (right)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/megaman_style/MegaOJ.gif
+                - type: page
+                  name: super_mario_world_style
+                  display: Super Mario World Style
+                  children:
+                    - type: section
+                      display: OmegaJester in Super Mario World Style
+                      children:
+                        - type: animated sprite
+                          name: MarioOJ.gif
+                          display: OmegaJester Running (right)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/super_mario_world_style/MarioOJ.gif
+                - type: page
+                  name: zelda_style
+                  display: Zelda Style
+                  children:
+                    - type: section
+                      display: OmegaJester in Zelda: A Link to the Past Style
+                      children:
+                        - type: animated sprite
+                          name: ZeldaOJ.gif
+                          display: OmegaJester Running (down)
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/animated/zelda_style/ZeldaOJ.gif
+        - type: page
+          name: non-animated
+          display: Non-animated
+          children:
+            - type: section
+              display: Various Static Sprites
+              children:
+                - type: page
+                  name: misc_styles
+                  display: Misc. Styles
+                  children:
+                    - type: section
+                      display: Misc. Styles
+                      children:
+                        - type: sprite
+                          name: FF1OJ.gif
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/non-animated/misc_styles/FF1OJ.gif
+                        - type: sprite
+                          name: FF3OJ.gif
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/non-animated/misc_styles/FF3OJ.gif
+                        - type: sprite
+                          name: KirbyOJ.gif
+                          submitter id: 78
+                          date: 04.05.11
+                          path: custom/omegajester/sprites/non-animated/misc_styles/KirbyOJ.gif
+    - type: game
+      name: prowler
+      display:
+      children: [] # todo
+    - type: game
+      name: purplebuttboid
+      display: PurpleButtNoid
+      children: [] # todo
+    - type: game
+      name: sketch
+      display: Sketch
+      children: [] # todo
+    - type: game
+      name: space-cadet
+      display: Space-Cadet
+      children: [] # todo
+    - type: game
+      name: ukyo_of_the_shadow
+      display: Ukyo of the Shadow
+      children: [] # todo
